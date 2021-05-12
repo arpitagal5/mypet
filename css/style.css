@@ -1,0 +1,354 @@
+body{
+    font-family:"Open Sans", Arial, sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+.navbar {
+    border-bottom: 1px solid #000;
+    background: rgba(0,0,0, 0.6) !important;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #fff !important;
+}
+.nav-link {
+    color: rgb(176,177,177) !important;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active{
+    color:#fff !important;
+}
+.dropdown-menu {
+    color:rgb(176,177,177) ;
+    background-color: #000;
+}
+.dropdown-item {
+    color: rgb(179,177,177);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background-color:rgb(87, 85, 85) !important;
+    color:#d0b482;
+}
+.dropdown-menu> li> a:hover{
+    background-color:rgb(87, 85, 85) !important;
+}
+.navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle {
+    background-color:rgb(87, 85, 85) !important;
+}
+
+.carousel .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+  
+}
+.carousel-caption {
+    top: calc(50% - 100px);
+}
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+.carousel-caption p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.btn-custom {
+    color: #fff!important;
+    font-size: 13px;
+}
+.btn-outline-light {
+    border: 2px solid #fff;
+}
+.carousel-indicators  {
+    text-align: center; 
+  }
+.carousel-indicators button  { 
+    width: 10px!important;
+    height: 10px!important;
+    border: 2.5px solid rgb(141, 136, 136)!important;
+    border-radius: 100%!important;
+}
+
+.text-field h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.text-field span {
+    font-size: 14px;
+    color: #ffc107;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.dog-pic img {
+    max-width: 100%;
+    height: auto;
+}
+.story-text {
+    color: #868e96;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.custom-link {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+}
+.custom-link:after {
+    content: '\003E';
+    position:absolute;
+    right: -12px;
+    top: -4px;
+}
+
+.owners {
+    background-color: #fff;
+}
+.card .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(79, 136, 211, 0.3);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding: 80px 25px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.card .cover i {
+    font-size: 30px;
+    margin: 30px 0px;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+
+.card .cover i:hover {
+    color: #fa435b;
+}
+.card:hover .cover {
+    opacity: 1
+}
+.blockquote-footer {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.collections-pic img {
+    width: 100%;
+    height: auto;
+    
+}
+.no-padding {
+    padding: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.dog-pic {
+    position: relative;
+}
+.dog-pic:hover:before {
+    opacity: 1;
+}
+.dog-pic:hover:after {
+    opacity: 1;
+}
+.dog-pic:before {
+    opacity: 0;
+    content: '\271A';
+    position: absolute;
+    top: calc(40% - 25px);
+    left: calc(50% - 25px);
+    font-size: 50px;
+    color: #fff;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    
+}
+.dog-pic:after {
+    opacity: 0;
+    position: absolute;
+    top: calc(85% - 25px);
+    left: calc(50% - 130px);
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #fff;
+    width: 70%;
+    height: 10%;
+    border-radius: 5px; 
+}
+.dog-pic-1:after {
+    content: '\00a0 Beagle';
+    top: calc(85% - 25px);
+    left: calc(50% - 60px);
+    width: 70%;
+    height: 10%;
+}
+.dog-pic-2:after {
+    content: '\00a0 Labrador';
+    top: calc(85% - 25px);
+    left: calc(50% - 70px);
+    width: 36%;
+    height: 10%;
+}
+.dog-pic-3:after {
+    content: '\00a0 Bulldog';
+    top: calc(85% - 25px);
+    left: calc(50% - 60px);
+    width: 31%;
+    height: 10%;
+}
+
+.description {
+    color:rgb(148, 144, 144)!important;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.card-blog img {
+    width: 100%;
+}
+.text-muted.body {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.card-title.body {
+    color: #ffc107;
+}
+.card-text.body {
+    color: #868e96;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.card-body .btn {
+    color: #fff!important;
+    font-size: 12px;
+}
+.card.body {
+    background-color: transparent;
+    border: none;
+}
+
+footer {
+    background-color: #262626;
+    color: rgba(255, 255, 255, 0.5)
+}
+.social svg {
+    margin-right: 20px;
+    transition: fill .2s ease;
+    cursor: pointer;
+}
+.social svg:hover {
+    fill: rgb(219, 244, 253);
+}
+h5.footer-text {
+    color: rgb(219, 244, 253)!important;
+}
+p.footer-text {
+    font-size: 13px;
+}
+span.footer-text {
+    color: #fff;
+    font-size: 13px;
+}
+ul.footer-list li {
+    list-style-type: none;
+    padding: 0 0 15px 0;
+}
+ul.footer-list li a {
+    text-decoration: none;
+    color: #ffc107;
+    list-style: none;
+    list-style-type: none;
+    font-size: 13px;
+    transition: color .2s ease;
+    position: relative;
+}
+ul.footer-list li a:hover {
+     color: rgb(219, 244, 253);
+}
+ul.footer-list li a:before {
+    content: '\25D0';
+    position: absolute;
+    top: -2px;
+    left: -27px;
+    opacity: 0;
+}
+ul.footer-list li a:hover:before {
+    opacity: 1;
+}
+
+.mission-pic img,
+.history-pic img {
+    width: 100%;
+}
+
+.largest-btn-ever a {
+    text-decoration: none;
+    color:rgb(49, 49, 49);
+}
+.largest-btn-ever {
+    background-color: #eee;
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
+.largest-btn-ever:hover {
+    background-color: #ffc107;
+}
+
+.form {
+    background-color: #262626;
+    border-bottom: 1px dashed #fff;
+}
+.info-block {
+    color: #eee;
+}
+/* animation: backInUp ; */
+.carousel-caption, .story {
+    animation: backInUp;
+    animation-duration: 2.5s; 
+}
+.coming-soon {
+    animation: flash; 
+    animation-duration: 3s; 
+}
+
+@media (max-width: 992px) { 
+     
+}
+@media (max-width: 768px) { 
+    .carousel-indicators  {
+        visibility: hidden;
+    }
+}
+@media (max-width: 576px) {
+     
+}
+ 
+
+
